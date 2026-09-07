@@ -1,0 +1,6 @@
+# Habenula runtime state lives in ~/.habenula, never in the repo.
+# Never commit secrets: config, .env, .dev.vars all hold real keys.
+.env
+.dev.vars
+*.log
+node_modules/
